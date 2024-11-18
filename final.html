@@ -24,6 +24,10 @@
             color: rgb(34, 34, 34);
         }
 
+        .header-icons {
+            opacity: 70%;
+        }
+
         .information-section {
             width: 100%;
             height: 460px;
@@ -79,6 +83,96 @@
 
             align-items: center;
         }
+
+        .services a h4 {
+            color: black;
+
+        }
+
+        .services a p {
+            color: black;
+
+        }
+
+        .services a {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        .services .icon-services i {
+            font-size: 40px;
+
+        }
+
+        .section-1 .services {
+            height: auto;
+
+            max-width: 310px;
+            max-height: 300px;
+            width: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .services-column {
+            min-width: 250px;
+            min-height: 300px;
+            padding-bottom: 12px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about .about-column {
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 100px;
+            max-width: 100px;
+            min-height: 40px;
+            max-height: 40px;
+            border-radius: 50px;
+            background-color: #DEEBFC;
+            margin-top: 75px;
+            margin-bottom: 25px;
+
+
+        }
+
+        .about .about-column h2 {
+            margin: 0px;
+            /* -----font----- */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 13px;
+            font-weight: 800;
+            line-height: 15.6px;
+            color: rgb(16, 110, 234);
+
+
+
+        }
+
+        .about-section .find-more p {
+            font-family: Montserrat, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 60px;
+
+        }
+
+        .about-section {
+            background-color: #F5F9FF;
+        }
+
+        .about {
+            margin-top: 100px;
+        }
+        #About-img{
+            width: 100%;
+            
+        }
     </style>
 </head>
 
@@ -86,6 +180,7 @@
 
 
     <div class="container-fluid  p-0">
+        <!-- Contact Section -->
         <div class="row bg-primary  align-items-center p-0 m-0">
             <div class="col-1  text-light p-0 m-0"></div>
             <div class="col-sm-6 col-md-5 bg-primary text-light d-flex align-items-center justify-content-center ">
@@ -100,7 +195,7 @@
                     </span>+1 5589 55488 55
                 </p>
             </div>
-            <div class=" col-md-5 col-sm-4  bg-primary text-light p-2 d-flex justify-content-end">
+            <div class="header-icons col-md-5 col-sm-4  bg-primary text-light p-2 d-flex justify-content-end">
                 <i class="bi bi-facebook mx-2"></i>
                 <i class="bi bi-instagram mx-2"></i>
                 <i class="bi bi-linkedin mx-2"></i>
@@ -110,6 +205,8 @@
             </div>
             <div class="col-1  text-light p-0"></div>
         </div>
+        <!-- Contact Section End -->
+
         <div class="row p-0 m-0">
             <div class="col-1 bg-white"></div>
             <div class="col-10  p-0 m-0">
@@ -207,46 +304,46 @@
     <!------------------------------------------------------------------------>
     <!-- Features Services Section Start -->
     <div class="section-1 p-0 m-0">
-        <div class="container-fluid bg-info">
-            <div class="row p-0 m-0 bg-info w-100 d-flex ">
-                <div class="col-lg-3 col-md-6  bg-secondary">
-                    <div class="services p-4">
+        <div class="container bg-white p-2">
+            <div id="services" class="row p-0 m-0 bg-white w-100 d-flex ">
+                <div class=" col-lg-3 col-md-6   bg-white  services-column">
+                    <div class="services bg-white p-4 mt-4 ">
                         <a href="#">
                             <div class="icon-services">
-                                <i class="bi bi-activity icon"></i>
+                                <i class="bi bi-activity icon text-primary"></i>
                             </div>
                             <h4>Lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum. Lorem, ipsum.</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6  bg-primary">
-                    <div class="services p-4">
-                        <a href="#">
+                <div class="col-lg-3 col-md-6  bg-white services-column">
+                    <div class="services  bg-white p-4 mt-4 ">
+                        <a href="#" m-0>
                             <div class="icon-services">
-                                <i class="bi bi-bounding-box-circles icon"></i>
+                                <i class="bi bi-bounding-box-circles icon text-primary"></i>
                             </div>
                             <h4>Lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum. Lorem, ipsum.</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6  bg-danger">
-                    <div class="services p-4">
+                <div class="col-lg-3 col-md-6  bg-white services-column">
+                    <div class="services bg-white p-4 mt-4  ">
                         <a href="#">
                             <div class="icon-services">
-                                <i class="bi bi-calendar4-week icon"></i>
+                                <i class="bi bi-calendar4-week icon text-primary"></i>
                             </div>
                             <h4>Lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum. Lorem, ipsum.</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6  bg-success">
-                    <div class="services p-4">
+                <div class="col-lg-3 col-md-6  bg-white services-column">
+                    <div class="services bg-white p-4 mt-4 ">
                         <a href="#">
                             <div class="icon-services">
-                                <i class="bi bi-broadcast icon"></i>
+                                <i class="bi bi-broadcast icon text-primary"></i>
                             </div>
                             <h4>Lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum. Lorem, ipsum.</p>
@@ -257,6 +354,40 @@
         </div>
 
     </div>
+    <!----------Features Services Section END --------->
+    <!-- -----------------About Section Start-------------- -->
+    <div class="about-section">
+        <div class="container">
+            <div class="row about text-center">
+                <div class="about-column  col-2   h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="p-0 ">ABOUT</h2>
+
+                </div>
+            </div>
+            <div class="row find-more w-100 d-flex justify-content-center">
+                <div class="col-6 ">
+                    <p class="text-center">
+                        <span>
+                            Find Out More
+                        </span>
+                        <span class="description-title text-primary">
+                            About Us
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="./media/about.jpg" id="About-img"  alt="">
+                </div>
+                <div class="col-6">
+
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ullam qui rem explicabo repudiandae doloribus quas soluta nam ex. Dolore saepe, cupiditate distinctio iure velit at amet accusamus debitis quas nostrum provident tempora reprehenderit ex et molestias vitae illo fugit. Harum a autem architecto cum quae obcaecati fuga voluptatibus! Similique molestiae vel doloremque soluta qui sequi dolores esse ut eaque debitis dolorem reiciendis aspernatur, eligendi doloribus. Error quis illo, doloremque nostrum voluptatem, tempore voluptatum maxime corrupti est magnam eveniet pariatur facere dignissimos qui numquam, veniam laboriosam deserunt veritatis nihil vel nulla? Est veniam quas officia! Incidunt pariatur tempore harum, magni dignissimos assumenda itaque provident doloremque eveniet dicta ad voluptas eos temporibus voluptatibus eligendi, ex facere hic veniam ut! Aspernatur, molestias quasi! Velit, corrupti, eaque repellendus sed et provident quisquam voluptatibus earum animi non culpa aliquam id tenetur nam, veniam consectetur voluptas deleniti alias error vero qui labore nostrum! Quia perspiciatis aperiam non expedita voluptatum provident, facilis cum unde, veritatis, vitae quos. Reiciendis doloremque sed debitis expedita quisquam, explicabo labore tempore quia impedit repellendus fugiat provident iure accusamus, recusandae facere blanditiis asperiores sit reprehenderit animi ducimus beatae fuga maxime sequi. Nobis ut amet dolorem nam laborum quia dolor, aperiam eius suscipit odio autem, quos voluptates itaque libero nulla vel officia eveniet laboriosam veniam delectus rem optio quas explicabo! Eum sit consectetur quo, repudiandae, id deleniti natus asperiores sint perspiciatis obcaecati ducimus? Veniam, laudantium! Delectus provident animi velit eligendi ab magni dolorum quos esse asperiores eveniet illum sunt voluptatibus eaque quae, corrupti incidunt aperiam nisi atque saepe expedita mollitia quasi recusandae. Accusamus rem reprehenderit hic consequatur possimus at eveniet ratione corporis culpa, voluptas nam voluptate deleniti harum dolorem alias ipsa? Officiis, delectus? Accusamus odio similique labore illo eius dolor quos aliquid adipisci natus rem inventore ut eligendi perspiciatis magni nobis laboriosam voluptatem laborum suscipit, ab vel! Repellendus dolores officia quod doloremque rerum voluptate minima error sequi blanditiis ut perferendis molestias, eius possimus similique, obcaecati aut veniam non quam illum quas? Perspiciatis ea qui, quia minus dicta minima doloribus, officia quod molestias quis nobis a sapiente numquam aliquam quibusdam mollitia. Aut nihil, officia eligendi fugiat at, recusandae temporibus molestias est totam dolores eius commodi debitis harum omnis animi maiores quaerat mollitia nobis fugit quo, exercitationem inventore blanditiis. Fugiat deleniti dolores ullam repellendus, assumenda deserunt pariatur veniam ducimus perspiciatis quidem, officia possimus quasi aliquam? Vel magnam alias eius tempora commodi iusto explicabo maxime architecto excepturi itaque laudantium odit quaerat, mollitia quidem vero voluptatibus perferendis molestiae? Inventore maiores facere ratione in fuga similique quod dolorem fugit, quaerat excepturi a, eum explicabo deleniti, porro reprehenderit quo eius! Voluptatem odit quis eligendi adipisci libero saepe? Sequi unde cum architecto at commodi porro voluptates quod maxime consequuntur, recusandae nihil alias atque neque saepe quis. Nobis aliquam asperiores repellat voluptatem consequatur commodi amet omnis odio unde vitae deserunt error, similique quas, laborum, enim sint laboriosam aut est. Provident ab architecto consequuntur doloribus. Laboriosam, cumque. Qui aperiam perferendis cumque fugiat alias quod, minima nam illo consectetur, magnam minus? Maxime, voluptatem.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About Section END-------------- -->
 
 
 
