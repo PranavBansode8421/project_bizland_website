@@ -136,8 +136,6 @@
             background-color: #DEEBFC;
             margin-top: 75px;
             margin-bottom: 25px;
-
-
         }
 
 
@@ -163,7 +161,6 @@
             margin-bottom: 60px;
 
         }
-
 
         .about-section {
             background-color: #F5F9FF;
@@ -547,6 +544,63 @@
             font-weight: 500;
             line-height: 16.8px;
             color: color(srgb 1 1 1 / 0.6);
+        }
+
+        .portfolio-section .portfolio-section-heading {
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 120px;
+            max-width: 120px;
+            min-height: 40px;
+            max-height: 40px;
+            border-radius: 50px;
+            background-color: #DEEBFC;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+        .portfolio-section .portfolio-section-heading h2 {
+            margin: 0px;
+            /* -----font----- */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 15.6px;
+            color: rgb(16, 110, 234);
+            letter-spacing: 1px;
+        }
+
+        .portfolio-section-subheading p {
+            font-family: Montserrat, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 60px;
+        }
+
+        .portfolio-section {
+            background-color: white;
+        }
+
+        .portfolio-section-row1 {
+            margin-top: 0px;
+        }
+
+        .portfolio-navbar .navbar-1 p {
+            border-radius: 3px;
+            padding: 5px 5px;
+
+        }
+
+        .portfolio-img img {
+            
+            
+            width: 100%;
+        }
+
+        .portfolio-img .portfolio-item {
+            position: relative;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -1252,9 +1306,85 @@
         </div>
     </section>
     <!-- ------------------Testimonial Section End------------------ -->
-    <div class="portfolio">
-        <div class="container" >
-            <div class="row"></div>
+    <div class="portfolio-section">
+        <div class="container">
+            <div class="row  portfolio-section-row1 text-center">
+                <div class=" portfolio-section-heading col-2   h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="p-0 ">PORTFOLIO</h2>
+
+                </div>
+            </div>
+            <div class="row  portfolio-section-subheading w-100 d-flex justify-content-center">
+                <div class="col-lg-6 ">
+                    <p class="text-center">
+                        <span>
+                            Find Out More
+                        </span>
+                        <span class="description-title text-primary">
+                            About Us
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row portfolio-navbar">
+                <div class="col-3 col-lg-4"></div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="container">
+                        <div class="row text-center navbar-1">
+                            <div class="col-3 ">
+                                <a href="" style="text-decoration: none;">
+                                    <p class="bg-primary text-light">All</p>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="" style="text-decoration: none;">
+                                    <p class="bg-primary text-light">App</p>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="" style="text-decoration: none;">
+                                    <p class="bg-primary text-light">Card</p>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="" style="text-decoration: none;">
+                                    <p class="bg-primary text-light">Web</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4"></div>
+            </div>
+            <div class="row portfolio-img">
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-2.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-3.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-4.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-5.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-6.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-7.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-8.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <img src="./media/masonry-portfolio-9.jpg" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
