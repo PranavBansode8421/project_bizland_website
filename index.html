@@ -681,6 +681,109 @@
             box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.041), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
         }
+
+
+        .pricing-section .pricing-heading {
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 100px;
+            max-width: 100px;
+            min-height: 40px;
+            max-height: 40px;
+            border-radius: 50px;
+            background-color: #DEEBFC;
+            margin-top: 75px;
+            margin-bottom: 25px;
+        }
+
+
+        .pricing-heading h2 {
+            margin: 0px;
+            /* -----font----- */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 15.6px;
+            color: rgb(16, 110, 234);
+            letter-spacing: 1px;
+        }
+
+
+        .portfolio-section {
+            margin-top: 50px;
+        }
+
+        .pricing-subheading p {
+            font-family: Montserrat, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 60px;
+        }
+
+        .pricing-row {
+            margin-bottom: 50px;
+        }
+
+        .pricing-row h3 {
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.2px;
+            color: color(srgb 0.266667 0.266667 0.266667 / 0.8);
+        }
+
+        .pricing-item sup {
+            font-family: Montserrat, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 0px;
+            color: rgb(34, 34, 34);
+        }
+
+        .pricing-item sub {
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19.2px;
+            color: color(srgb 0.266667 0.266667 0.266667 / 0.6);
+        }
+
+        .pricing-item ul {
+            list-style: none;
+            line-height: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .pricing-item .text-liststyle {
+            font-style: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 40px;
+            color: color(srgb 0.266667 0.266667 0.266667 / 0.6);
+        }
+
+        .pricing-item li {
+            font-style: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 40px;
+            color: rgb(68, 68, 68);
+        }
+
+        .pricing-card {
+            min-height: 400px;
+            max-height: 400px;
+        }
+
+        .pricing-card a {
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            color: rgb(255, 255, 255);
+        }
     </style>
 </head>
 
@@ -1399,10 +1502,10 @@
                 <div class="col-lg-6 ">
                     <p class="text-center">
                         <span>
-                            Find Out More
+                            Check Our
                         </span>
                         <span class="description-title text-primary">
-                            About Us
+                            Portfolio
                         </span>
                     </p>
                 </div>
@@ -1551,22 +1654,152 @@
     <!-- ------------------Pricing Section start------------------ -->
     <div class="pricing-section">
         <div class="container">
-            <div class="row about text-center">
-                <div class="about-column  col-2   h-100 d-flex align-items-center justify-content-center">
-                    <h2 class="p-0 ">ABOUT</h2>
+            <div class="row  pricing text-center">
+                <div class=" pricing-heading col-2   h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="p-0 ">PRICING</h2>
 
                 </div>
             </div>
-            <div class="row find-more w-100 d-flex justify-content-center">
+            <div class="row  pricing-subheading w-100 d-flex justify-content-center">
                 <div class="col-lg-6 ">
                     <p class="text-center">
                         <span>
-                            Find Out More
+                            Check our
                         </span>
                         <span class="description-title text-primary">
-                            About Us
+                            Pricing
                         </span>
                     </p>
+                </div>
+            </div>
+            <div class="row pricing-row">
+                <div class="col-lg-3 col-md-6 pricing-1">
+                    <div class="pricing-card p-2 pb-3">
+                        <div class="card text-center h-100">
+                            <div class="card-header ">
+                                <h3 class="m-2">Free</h3>
+                            </div>
+                            <div class="card-body pricing-item">
+                                <h4>
+                                    <sup>
+                                        $
+                                    </sup>
+                                    0
+                                    <span>
+                                        <sub>
+                                            / month
+                                        </sub>
+                                    </span>
+                                </h4>
+                                <ul>
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li class="text-decoration-line-through text-liststyle">Pharetra massa</li>
+                                    <li class="text-decoration-line-through text-liststyle">Massa ultricies mi</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer  text-body-secondary">
+                                <a href="#" class="btn btn-primary  m-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pricing-1">
+                    <div class="pricing-card p-2 pb-3">
+                        <div class="card text-center h-100">
+                            <div class="card-header bg-primary">
+                                <h3 class="text-light m-2">Business</h3>
+                            </div>
+                            <div class="card-body pricing-item">
+                                <h4>
+                                    <sup>
+                                        $
+                                    </sup>
+                                    19
+                                    <span>
+                                        <sub>
+                                            / month
+                                        </sub>
+                                    </span>
+                                </h4>
+                                <ul>
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li>Pharetra massa</li>
+                                    <li class="text-decoration-line-through text-liststyle">Massa ultricies mi</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer  text-body-secondary">
+                                <a href="#" class="btn btn-primary m-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pricing-1">
+                    <div class="pricing-card p-2 pb-3">
+                        <div class="card  h-100 text-center">
+                            <div class="card-header">
+                                <h3 class="m-2">Developer</h3>
+                            </div>
+                            <div class="card-body pricing-item">
+                                <h4>
+                                    <sup>
+                                        $
+                                    </sup>
+                                    29
+                                    <span>
+                                        <sub>
+                                            / month
+                                        </sub>
+                                    </span>
+                                </h4>
+                                <ul>
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li>Pharetra massa</li>
+                                    <li>Massa ultricies mi</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer  text-body-secondary">
+                                <a href="#" class="btn btn-primary m-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pricing-1">
+                    <div class="pricing-card p-2 pb-3">
+                        <div class="card  h-100 text-center">
+                            <div class="card-header">
+                                <h3 class="m-2">Ultimate</h3>
+                            </div>
+                            <div class="card-body pricing-item">
+                                <h4>
+                                    <sup>
+                                        $
+                                    </sup>
+                                    49
+                                    <span>
+                                        <sub>
+                                            / month
+                                        </sub>
+                                    </span>
+                                </h4>
+                                <ul>
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li>Pharetra massa</li>
+                                    <li>Massa ultricies mi</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer  text-body-secondary">
+                                <a href="#" class="btn btn-primary m-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
