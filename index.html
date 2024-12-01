@@ -600,9 +600,11 @@
             padding: 5px 5px;
 
         }
-        .portfolio-img{
+
+        .portfolio-img {
             columns: 4;
         }
+
         .portfolio-img img {
             width: 100%;
         }
@@ -610,11 +612,13 @@
         .portfolio-img .portfolio-item {
             position: relative;
             overflow: hidden;
-            
+
         }
-        .portfolio-img .portfolio-item img{
+
+        .portfolio-img .portfolio-item img {
             margin-bottom: 30px;
         }
+
         /* ----------------------------------- */
 
         .team-section .team-heading {
@@ -1010,6 +1014,56 @@
             font-weight: 400;
             line-height: 24px;
             color: rgb(255, 255, 255);
+        }
+
+        .footer {
+            background-color: #ffffff;
+            font-size: 14px;
+            padding-bottom: 50px;
+            position: relative;
+        }
+
+        .footer .footer-newsletter {
+            padding: 50px 0;
+            background-color: #F5F9FF;
+        }
+
+        form {
+            display: block;
+            margin-top: 0em;
+            unicode-bidi: isolate;
+        }
+
+        .footer .footer-newsletter .newsletter-form {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding: 6px 8px;
+            position: relative;
+            background-color: #ffffff;
+            border: 1px solid color-mix(in srgb, #106eea, transparent 80%);
+            box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+            display: flex;
+
+            border-radius: 4px;
+        }
+
+        .footer .footer-newsletter .newsletter-form input[type=email] {
+            border: 0;
+            padding: 4px;
+            width: 100%;
+            background-color: #ffffff;
+            color: #444444;
+        }
+
+        .footer .footer-newsletter .newsletter-form input[type=submit] {
+            border: 0;
+            font-size: 16px;
+            padding: 0 20px;
+            margin: -7px -8px -7px 0;
+            background: #106eea;
+            color: #ffffff;
+            transition: 0.3s;
+            border-radius: 0 4px 4px 0;
         }
     </style>
 </head>
@@ -1783,11 +1837,11 @@
                     <img src="./media/masonry-portfolio-7.jpg" alt="">
                     <img src="./media/masonry-portfolio-8.jpg" alt="">
                 </div>
-                
+
             </div>
         </div>
     </div>
-    <!-- incomplete -->
+
     <!-- ------------------Portfolio Section End------------------ -->
     <!-- ------------------Team Section start------------------ -->
     <div class="team-section">
@@ -2252,6 +2306,31 @@
         </div>
     </div>
     <!-- ------------------Contact Section end------------------ -->
+    <!-- ------------------Footer Section Start------------------ -->
+    <div class="footer">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                        <form>
+                            <div class="newsletter-form">
+                                <input type="email" name="email">
+                                <input type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-top">
+            <div class="row gy-4">
+                
+            </div>
+        </div>
+    </div>
+    <!-- ------------------Footer Section end------------------ -->
 
 
 
