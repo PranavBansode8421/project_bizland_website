@@ -139,7 +139,6 @@
         }
 
 
-
         .about .about-column h2 {
             margin: 0px;
             /* -----font----- */
@@ -601,7 +600,9 @@
             padding: 5px 5px;
 
         }
-
+        .portfolio-img{
+            columns: 4;
+        }
         .portfolio-img img {
             width: 100%;
         }
@@ -782,6 +783,229 @@
             font-size: 14px;
             font-weight: 600;
             line-height: 21px;
+            color: rgb(255, 255, 255);
+        }
+
+        .accordion-item {
+            border-radius: 5px;
+            /* Adjust as needed */
+            overflow: hidden;
+            /* Ensures rounded corners for child elements */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            /* Faint shadow */
+            border: none;
+        }
+
+        .accordion-button {
+            border-radius: 0;
+            /* Removes default rounded corners on the button */
+        }
+
+        .accordion-button:not(.collapsed) {
+            border-radius: 0;
+            /* Consistent appearance when expanded */
+        }
+
+        .faq-cont2 {
+            padding-bottom: 50px;
+        }
+
+        /* ss  */
+        .faq-heading {
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 100px;
+            max-width: 100px;
+            min-height: 40px;
+            max-height: 40px;
+            border-radius: 50px;
+            background-color: #DEEBFC;
+            margin-top: 75px;
+            margin-bottom: 25px;
+        }
+
+        /* ss  */
+        .faq-heading h2 {
+            margin: 0px;
+            /* -----font----- */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 15.6px;
+            color: rgb(16, 110, 234);
+            letter-spacing: 1px;
+        }
+
+        /* ss  */
+        .faq-section .faq-subheading p {
+            font-family: Montserrat, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 60px;
+        }
+
+        /* ss  */
+        .faq-section {
+            background-color: #F5F9FF;
+        }
+
+        .accordion-header {
+            font-family: Montserrat, sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+            color: rgb(16, 109, 232);
+        }
+
+        .accordion-body {
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(0, 0, 0);
+        }
+
+        .contact-section {
+            margin-bottom: 50px;
+        }
+
+        /* ss  */
+        .contact-heading {
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 130px;
+            max-width: 130px;
+            min-height: 40px;
+            max-height: 40px;
+            border-radius: 50px;
+            background-color: #DEEBFC;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+        /* ss  */
+        .contact-heading h2 {
+            margin: 0px;
+            /* -----font----- */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 15.6px;
+            color: rgb(16, 110, 234);
+            letter-spacing: 1px;
+        }
+
+        /* ss  */
+        .contact-subheading p {
+            font-family: Montserrat, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 60px;
+        }
+
+        /* ss  */
+        .contact {
+            margin-top: 75px;
+        }
+
+        .info-wrap {
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            min-height: 615px;
+
+        }
+
+        .contact-section .info-item i {
+            font-size: 20px;
+            color: #106EEA;
+            background-color: #F5F9FF;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+            margin-right: 15px;
+        }
+
+        .contact-section .info-item h3 {
+            padding: 0;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            /* font  */
+            font-family: Montserrat, sans-serif;
+            line-height: 21.6px;
+            color: rgb(34, 34, 34);
+
+        }
+
+        .contact-section .info-item p {
+            padding: 0;
+            margin-bottom: 0;
+            font-size: 14px;
+            /* font  */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            line-height: 21px;
+            color: rgb(68, 68, 68);
+        }
+
+        .contact-section .info-item {
+            margin-bottom: 40px;
+        }
+
+        .contact-section .form-wrap {
+
+            padding: 30px;
+        }
+
+        .contact-section .form-items {
+            margin-top: 24px;
+            padding: 0px 12px;
+            /* font Details  */
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(68, 68, 68);
+        }
+
+        .form-items label {
+            display: inline-block;
+        }
+
+        .form-items .pb-2 {
+            padding-bottom: .5rem !important;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            font-weight: 400;
+            line-height: 1.5;
+            border: solid #dee2e6;
+        }
+
+        textarea .form-control {
+            resize: vertical;
+            min-height: calc(1.5em + .75rem + calc(var(--bs-border-width)* 2));
+        }
+
+        .info-wrap .btn {
+            border-radius: 200px;
+            width: 150px;
+            height: 45px;
+        }
+
+        .info-wrap button {
+            font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
             color: rgb(255, 255, 255);
         }
     </style>
@@ -1805,6 +2029,239 @@
         </div>
     </div>
     <!-- ------------------Pricing Section end------------------ -->
+    <!-- ------------------FAQ Section Start------------------ -->
+    <div class="faq-section">
+        <div class="container">
+            <div class="row  faq text-center">
+                <div class=" faq-heading col-2   h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="p-0 ">F.A.Q</h2>
+
+                </div>
+            </div>
+            <div class="row  w-100 faq-subheading d-flex justify-content-center">
+                <div class="col-lg-6 ">
+                    <p class="text-center">
+                        <span>
+                            Frequently Asked
+                        </span>
+                        <span class="description-title text-primary">
+                            Questions
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="container  faq-cont2  ">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="faq-container">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseOne" aria-expanded="true"
+                                        aria-controls="faqCollapseOne">
+                                        Non consectetur a erat nam at lectus urna duis?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
+                                        laoreet
+                                        non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus
+                                        dolor
+                                        purus non.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseTwo" aria-expanded="false"
+                                        aria-controls="faqCollapseTwo">
+                                        Feugiat scelerisque varius morbi enim nunc faucibus?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+                                        interdum
+                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque
+                                        eleifend
+                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros
+                                        in
+                                        cursus turpis massa tincidunt dui.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseThree" aria-expanded="false"
+                                        aria-controls="faqCollapseThree">
+                                        Dolor sit amet consectetur adipiscing elit pellentesque?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                                        Faucibus
+                                        pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                        Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                                        tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseFour" aria-expanded="false"
+                                        aria-controls="faqCollapseFour">
+                                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+                                        interdum
+                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque
+                                        eleifend
+                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros
+                                        in
+                                        cursus turpis massa tincidunt dui.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseFive" aria-expanded="false"
+                                        aria-controls="faqCollapseFive">
+                                        Tempus quam pellentesque nec nam aliquam sem et tortor?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+                                        suspendisse in
+                                        est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
+                                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="faqHeadingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapseSix" aria-expanded="false"
+                                        aria-controls="faqCollapseSix">
+                                        Perspiciatis quod quo quos nulla quo illum ullam?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseSix" class="accordion-collapse collapse"
+                                    aria-labelledby="faqHeadingSix" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
+                                        in
+                                        suscipit sequi. Distinctio ipsam dolore et.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Faq Column -->
+            </div>
+        </div>
+    </div>
+    <!-- ------------------FAQ Section end------------------ -->
+    <!-- ------------------Contact Section Start------------------ -->
+    <div class="contact-section">
+        <div class="container">
+            <div class="row  contact text-center">
+                <div class=" contact-heading col-2   h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="p-0 ">CONTACT</h2>
+
+                </div>
+            </div>
+            <div class="row contact-subheading w-100 d-flex justify-content-center">
+                <div class="col-lg-6 ">
+                    <p class="text-center">
+                        <span>
+                            Need Help?
+                        </span>
+                        <span class="description-title text-primary">
+                            Contact Us
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="info-wrap">
+                        <div class="info-item d-flex">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="info-item d-flex">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                        <div class="info-item d-flex">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                            frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="form-wrap info-wrap">
+                        <div class="row gy-4">
+                            <div class="col-md-6 form-items">
+                                <label for="" class="pb-2">Your Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-6 form-items">
+                                <label for="" class="pb-2">Your Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-12 form-items">
+                                <label for="" class="pb-2">Your Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-12 form-items">
+                                <label for="message-field" class="pb-2">Your Name</label>
+                                <textarea cols="10" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------Contact Section end------------------ -->
+
+
 
 
 
